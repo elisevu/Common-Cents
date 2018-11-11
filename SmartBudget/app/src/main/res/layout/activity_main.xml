@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.naumi.smartbudget.MainActivity"
+        android:background="@drawable/gradient">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Common Cents"
+            android:id="@+id/textView2" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:textColor="@android:color/white" android:textStyle="bold" android:textAlignment="center"
+            android:textSize="36sp"/>
+
+    <Button
+            android:id="@+id/quizBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Take the Quiz!  "
+            android:background="@android:color/white"
+            android:layout_marginEnd="52dp"
+            android:layout_below="@+id/textView2" android:layout_alignParentEnd="true" android:layout_marginTop="99dp"/>
+
+    <Button
+            android:id="@+id/loginBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Login!  "
+            android:background="@android:color/white"
+            android:layout_marginStart="64dp"
+            android:layout_alignTop="@+id/quizBut" android:layout_alignParentStart="true"/>
+
+</RelativeLayout>
